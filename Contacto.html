@@ -91,8 +91,22 @@
             <input class="botonEnviar" type="submit" value="Enviar">
         </fieldset>
     </form>
+    <fieldset class="seccionFormulario">
+        <legend><em>Conversor de divisas</em></legend>
+
+        <label for="pesos">Pesos mexicanos:</label>
+        <input type="number" id="pesos" placeholder="Ej. 100" min="0">
+
+        <button type="button" class="botonEnviar" onclick="convertirDolares()">
+            Convertir a dólares
+        </button>
+
+        <p id="resultadoDolares">Aquí aparecerá el resultado.</p>
+    </fieldset>
     <a href="index.html" class="boton">
         Volver al index
     </a>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
