@@ -297,7 +297,71 @@
             a dónde me llevará el camino, pero espero terminar haciendo algo que realmente me apasione y me permita
             seguir mirando hacia las estrellas.</p>
     </fieldset>
+    <fieldset class="formularioPrincipal">
+        <legend><strong><em>¿Cuánto sabes sobre mí?</em></strong></legend>
+
+        <fieldset class="seccionFormulario">
+            <legend>¿Qué carrera estudio?</legend>
+            <div class="opciones">
+                <label>
+                    <input type="radio" name="pregunta1" value="a">
+                    Física
+                </label>
+                <label>
+                    <input type="radio" name="pregunta1" value="b">
+                    Ingeniería en Software
+                </label>
+                <label>
+                    <input type="radio" name="pregunta1" value="c">
+                    Medicina
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="seccionFormulario">
+            <legend>¿Qué género musical me gusta?</legend>
+            <div class="opciones">
+                <label>
+                    <input type="radio" name="pregunta2" value="a">
+                    Rock y metal
+                </label>
+                <label>
+                    <input type="radio" name="pregunta2" value="b">
+                    Reguetón
+                </label>
+                <label>
+                    <input type="radio" name="pregunta2" value="c">
+                    Rancheras exclusivamente
+                </label>
+            </div>
+        </fieldset>
+
+        <fieldset class="seccionFormulario">
+            <legend>¿Qué tema científico me interesa?</legend>
+            <div class="opciones">
+                <label>
+                    <input type="radio" name="pregunta3" value="a">
+                    Astronomía
+                </label>
+                <label>
+                    <input type="radio" name="pregunta3" value="b">
+                    Solo botánica
+                </label>
+                <label>
+                    <input type="radio" name="pregunta3" value="c">
+                    Ninguno
+                </label>
+            </div>
+        </fieldset>
+
+        <button type="button" class="botonEnviar" onclick="calificarCuestionario()">
+            Revisar respuestas
+        </button>
+
+        <p id="resultadoCuestionario"></p>
+    </fieldset>
     <a href="index.html" class="boton">Volver al index</a><br>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
